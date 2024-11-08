@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Большая книга CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,Cyrillic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href = "css/normalize.css">
+  <link rel="stylesheet" href = "css/skeleton.css">
+  <link rel="stylesheet" href = "css/custom.css">
+  
+</head>
+<body>
+<!-- основной раздел -->
+<div class="section header">
+<div class="container">
+	<div class="row">
+		<div class="four columns">
+			<p class="logo"> Адаптивная </p>
+			<p class="logo1"> верстка </p>
+		</div>
+		<div class="eight columns nav">
+			<a class="button button-primary" href="#">Главная</a>
+			<a class="button" href="01-nav.html">Задачи</a>
+			<a class="button" href="02-action.html">Преимущества</a>
+			<a class="button" href="03-info.html">Виды</a>
+		</div>
+	</div>
+	<div class="row action">
+		<h1>Что это такое – адаптивная вёрстка сайта</h1>
+	</div>
+</div>
+</div>
+
+<!-- раздел контента -->
+<div class="container">
+	<div class="row">
+		<div class="four columns">
+			<p>Пришло время решений, одинаково удобных и для мобильных устройств, и для стационарных компьютеров. Подробно рассмотрим адаптивный дизайн сайта: что он из себя представляет, по каким принципам строится, чем отличается от других, а также ответим на самые распространенные вопросы.</p>
+		</div>
+		<div class="four columns">
+			<p>Оформление сайта, при отображении которого страницы автоматически подстраиваются под разрешение и даже под текущий формат экрана устройства, а потому одинаково наглядно и удобно просматриваются на компьютерах или ноутбуках, на планшетах, смартфонах и даже телевизорах.</p>
+		</div>
+		<div class="four columns">
+			<p>По-английски он называется Adaptive Web Design, и данный термин метко отражает, каким он должен быть – гибким и функциональным. Проверить сайт на технические ошибки и исправить их можно с помощью онлайн-инструмента  Аудит сайта – он изучит ваш сайт на наличие ошибок, которые влияют как на поведенческие факторы, так и на ранжирование сайта поисковиками.</p>
+		</div>
+	</div>
+</div>
+<!-- колонтитул -->
+<div class="container">
+	<div class="row">
+		<div class="eight columns">
+			<p>© Адаптивная верстка, 2024.</p>
+		</div>
+		<div class="four columns">
+			<form>
+				<label for="exampleEmailInput">Подпишитесь на рассылку</label>
+				<input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+				<input class="button-primary" type="submit" value="OK">
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
